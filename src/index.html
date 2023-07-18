@@ -6,28 +6,35 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Cifrado Cesar</h1>
-    </div>
-    <div>
-      <label for="textoEncriptar">Anota el texto a encriptar:</label>
-      <input type="text">
-      
-      <label for="offset">Elige un número de desplazamiento:</label> 
-      <input type="number">
-
-      <button>ENCRIPTAR</button>
-    </div>
-
-    <div>
-      <label for="textoEncriptar">Anota el texto a desencriptar:</label>
-      <input type="text">
-
-      <label for="offset">Elige un número de desplazamiento:</label> 
-      <input type="number">
-
-      <button>DESENCRIPTAR</button>
-    </div>
+    <header class="header">
+      <div id="root">
+        <h1>Password Encryption</h1>
+      </div>
+    </header>
+    <main class="contenido">
+      <section class="seccionCode">
+        <h2>¡Encripta un password!</h2>
+        <label for="textToCode">Anota una palabra o frase corta para crear tu nuevo password:</label>
+        <textarea name="textToCode" id="textToCode" cols="30" rows="10" pattern="[A-Z]{1,10}" placeholder="Utiliza solamente mayúsculas y evita números, signos o la letra ñ" required></textarea>
+        <label for="offset">Elige una clave:</label> 
+        <input type="number" name="offset" id="offset" min="1" max="100" placeholder="Elige tu clave para encriptar y desencriptar" required>
+        <button id="code">ENCRIPTAR</button>
+        <p>Tu nuevo password es:</p>
+        <p id="resultado"></p>
+      </section>
+      <section class="seccionDecode">
+        <h2>¡Desencripta tu password!</h2>
+        <label for="textToDecode">Anota el password a desencriptar:</label>
+        <textarea name="textToDecode" id="textToDecode" cols="30" rows="10" pattern="[A-Z]{1,10}" placeholder="Coloca el password que quieres desencriptar"  required></textarea>
+        <label for="offsetDecode">Anota tu clave:</label> 
+        <input type="number" name="offset" id="offsetDecode" min="1" max="100" placeholder="Anota la clave que usaste para encriptar" required>
+        <button  id="decode">DESENCRIPTAR</button>
+        <p>El texto que usaste para tu password es:</p>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>Creado por Brenda Hernández Novoa</p>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
