@@ -1,14 +1,17 @@
 .header{
-    background-color: rgb(227, 207, 24);
+    
     width: auto;
-    height: 100px;
+    height: 200px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Handjet', cursive;
     font-weight: 700;
+    color: rgb(16, 77, 190);
+    font-size: 40px;
+    background-image: url(../assets/Caesar_Cipher.png);
 }
 
 .contenido{
@@ -17,38 +20,56 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-evenly;
-    background-color: cadetblue;
+    background-color: #ced4d5;
     width: auto;
-    height: 700px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 600px;
+    font-family: 'Handjet';
+    font-weight: 400;
+    font-size: 20px;
 }
 
-.seccionCode{
+.secciones{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-content: center;
-    justify-content: center;
+    justify-content: space-around;
     margin: 20px;
+    align-items: center;
 }
 
-.seccionDecode{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    margin: 20px;
+.box{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    width: 300px;
+}
+
+.button{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(16, 77, 190);
+    color: #000;
+    width: 150px;
+    height: 50px;
+    font-family: 'Handjet';
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    
 }
 
 .footer{
-    background-color: rgb(227, 207, 24);
+    background-color: rgb(16, 77, 190);
     width: auto;
-    height: 100px;
+    height: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Handjet';
+    font-weight: 200;
+    font-size: 20px;
+    color: white;
 }
