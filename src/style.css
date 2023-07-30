@@ -11,7 +11,6 @@
     font-weight: 700;
     color: rgb(16, 77, 190);
     font-size: 40px;
-    background-image: url(../assets/Caesar_Cipher.png);
 }
 
 .contenido{
@@ -20,7 +19,7 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-evenly;
-    background-color: #ced4d5;
+    background-image: url(../assets/Caesar_Cipher.png);
     width: auto;
     height: 600px;
     font-family: 'Handjet';

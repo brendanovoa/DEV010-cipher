@@ -1,3 +1,28 @@
+**PASSWORD ENCRYPTION**
+
+Esta página está pensada para poder crear claves o passwords que puedas utilizar en tus diferentes cuentas de páginas o redes sociales. Consta de 2 secciones: Encriptar y Desencriptar. Funciona colocando una palabra o frase corta y eligiendo un número o clave que generará el password. También puedes desencriptar el password colocandolo en la sección de desencriptar y agregando la clave con la que fue creada para obtener tu palabra o frase original.
+
+* Recuerda sólo utilizar letras mayúsculas, NO números, signos o la letra Ñ/ñ. * 
+
+Este producto esta pensado para facilitar el proceso de crear passwords seguros y fáciles de recordar al estar basados en palabras o frases conocidas por el usuario y obteniendo un código encriptado.
+
+El producto debe ser fácil de entender y de utilizar por lo que se crearon 2 secciones muy claramente identificables con cajas de escritura y botones grandes y llamativos.
+Se buscó un aspecto tecnológico con colores vivos que llamara la atención.
+
+![Screenshot of the encript section](/assets/images/encripta.png)
+
+/../main/assets/encripta.png
+
+/../assets/encripta.png
+
+
+
+
+
+
+
+
+
 # Cifrado César
 
 ## Índice
