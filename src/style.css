@@ -1,5 +1,4 @@
 .header{
-    
     width: auto;
     height: 200px;
     display: flex;
@@ -7,22 +6,25 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    font-family: 'Handjet', cursive;
+    font-family: 'Handjet', "Arial", cursive;
     font-weight: 700;
     color: rgb(16, 77, 190);
     font-size: 40px;
+    background-image: url("https://github.com/brendanovoa/DEV010-cipher/blob/main/assets/header.jpg");
 }
 
 .contenido{
+    background-image: url("../assets/fondopixel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 700px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-evenly;
-    background-image: url(../assets/Caesar_Cipher.png);
-    width: auto;
-    height: 600px;
-    font-family: 'Handjet';
+    font-family: 'Handjet', "Arial", cursive;
     font-weight: 400;
     font-size: 20px;
 }

@@ -1,20 +1,41 @@
-**PASSWORD ENCRYPTION**
+# PASSWORD ENCRYPTION
+Esta página está pensada para poder crear contraseñas o passwords que puedas utilizar en tus diferentes cuentas de páginas o redes sociales. Consta de 2 secciones: Encriptar y Desencriptar. Funciona colocando una palabra o frase corta y eligiendo un número o clave que generará la contraseña. También puedes desencriptar colocando en la sección de desencriptar y agregando la clave con la que fue creada para obtener tu palabra o frase original.
 
-Esta página está pensada para poder crear claves o passwords que puedas utilizar en tus diferentes cuentas de páginas o redes sociales. Consta de 2 secciones: Encriptar y Desencriptar. Funciona colocando una palabra o frase corta y eligiendo un número o clave que generará el password. También puedes desencriptar el password colocandolo en la sección de desencriptar y agregando la clave con la que fue creada para obtener tu palabra o frase original.
+**RECUERDA SÓLO UTILIZAR LETRAS MAYÚSCULAS, NO NÚMEROS, SIGNOS O LA LETRA Ñ**
 
-* Recuerda sólo utilizar letras mayúsculas, NO números, signos o la letra Ñ/ñ. * 
+Este producto esta pensado para facilitar el proceso de crear contraseñas seguras y fáciles de recordar al estar basadas en palabras o frases conocidas por el usuario y obteniendo un código encriptado.
 
-Este producto esta pensado para facilitar el proceso de crear passwords seguros y fáciles de recordar al estar basados en palabras o frases conocidas por el usuario y obteniendo un código encriptado.
+## Visualización
+El producto debe ser fácil de entender y de utilizar por lo que se crearon 2 secciones muy claramente identificables con cajas de escritura y botones grandes y llamativos. Se buscó un aspecto tecnológico con colores vivos que llamara la atención.
 
-El producto debe ser fácil de entender y de utilizar por lo que se crearon 2 secciones muy claramente identificables con cajas de escritura y botones grandes y llamativos.
-Se buscó un aspecto tecnológico con colores vivos que llamara la atención.
+![Screenshot of the encode section](https://github.com/brendanovoa/DEV010-cipher/blob/main/assets/encripta.png)
 
-![Screenshot of the encript section](/assets/images/encripta.png)
+![Screenshot of the decode section](https://github.com/brendanovoa/DEV010-cipher/blob/main/assets/desencripta.png)
 
-/../main/assets/encripta.png
 
-/../assets/encripta.png
+## Características
 
+Algunas de sus características principales son:
+
+- Encriptar y desencriptar palabras o frases cortas para crear contraseñas
+- Tener una llave o código para acceder a tus contraseñas con facilidad
+- Obtener diferentes contraseñas con una misma palabra o frase corta
+- Recuperar contraseñas creadas con la página
+
+
+## Proceso de desarrollo
+
+Desarrollado en html, css y javascript
+
+Diagrama de flujo:
+
+![Diagrama de flujo del proyecto](https://github.com/brendanovoa/DEV010-cipher/blob/main/assets/diagrama.jpg)
+
+
+## Autoría
+
+Creado por Brenda Gisel Hernández Novoa
+Basado en el boilerplate de Laboratoria
 
 
 

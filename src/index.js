@@ -9,8 +9,19 @@ const btnCode = document.getElementById("btn-code");
 const btnDecode = document.getElementById("btn-decode");
 
 // Llamar a funciones con eventos del DOM
-btnCode.addEventListener('click', cipher.encode);
-btnDecode.addEventListener('click', cipher.decode);
+btnCode.addEventListener('click', function(){
+  const offset = document.getElementById("offset").value; //convertir objeto en valor
+  const inputValue = document.getElementById("textToCode").value;
+  const textCoded = document.getElementById("textCoded");
+  textCoded.value = cipher.encode(offset, inputValue);
+});
+
+btnDecode.addEventListener('click', function(){
+  const offset = document.getElementById("offsetDecode").value; 
+  const inputValue = document.getElementById("textToDecode").value;
+  const textDecoded = document.getElementById("textDecoded"); 
+  textDecoded.value =cipher.decode(offset, inputValue);
+});
 
 console.log(cipher);
 
