@@ -1,17 +1,16 @@
 .header{
     width: auto;
-    height: 200px;
+    height: 160px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    font-family: 'Handjet', "Arial", sans-serif;
-    font-weight: 700;
+    font-family: 'VT323', monospace;
+    font-weight: 400;
     color: white;
     font-size: 40px;
-    text-shadow: rgb(31, 207, 207);
-    background-color: black;
+    background-color: rgb(1, 10, 9);
 }
 
 .contenido{
@@ -52,19 +51,20 @@
     border-radius: 5px;
     padding: 5px;
     margin: 10px;
-    background-color: rgb(16, 77, 190);
+    background-color: rgb(31, 207, 207);
+    color: black;
     width: 150px;
     height: 50px;
     font-family: 'Handjet';
     font-weight: 400;
     font-size: 25px;
-    color: white;
     cursor: pointer;
 }
 
 .button:hover{
-    background-color: rgb(31, 207, 207);
-    color: black;
+    background-color: rgb(16, 77, 190);
+    color: white;
+    box-shadow: aqua;
 }
 
 .footer{
