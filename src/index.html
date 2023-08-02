@@ -22,7 +22,7 @@
     </header>
     <main class="contenido">
       <section class="secciones">
-        <h2>Encripta un password</h2>
+        <h2>Encripta un password</h2><br>
         <label for="textToCode">Anota una palabra o frase corta para crear tu nuevo password:</label>
         <textarea name="textToCode" class="box" id="textToCode" cols="30" rows="10" pattern="[A-Z]{1,10}" placeholder="Utiliza solamente mayúsculas y evita números, signos o la letra ñ" required></textarea>
         <label for="offset">Elige una clave:</label> 
@@ -33,11 +33,11 @@
         
       </section>
       <section class="secciones">
-        <h2>Desencripta tu password</h2>
+        <h2>Desencripta tu password</h2><br>
         <label for="textToDecode">Anota el password a desencriptar:</label>
-        <textarea name="textToDecode" class="box" id="textToDecode" cols="30" rows="10" pattern="[A-Z]{1,10}" placeholder="Coloca el password que quieres desencriptar"  required></textarea>
+        <textarea name="textToDecode" class="box" id="textToDecode" cols="30" rows="10" pattern="[A-Z]{1,10}" placeholder="Utiliza solamente mayúsculas y evita números, signos o la letra ñ"  required></textarea>
         <label for="offsetDecode">Anota tu clave:</label> 
-        <input type="number" class="box" name="offset" id="offsetDecode" min="1" placeholder="Anota la clave que usaste para encriptar" required>
+        <input type="number" class="box" name="offset" id="offsetDecode" min="1" placeholder="Anota la clave que usaste al encriptar" required>
         <button class="button" id="btn-decode">DESENCRIPTAR</button>
         <label for="">El texto que usaste para tu password es:</label>
         <input type="text" class="box" id="textDecoded">

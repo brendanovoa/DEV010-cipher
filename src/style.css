@@ -6,15 +6,19 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    font-family: 'VT323', monospace;
-    font-weight: 400;
+    font-family: 'Handjet', "Arial", sans-serif;
+    font-weight: 700;
     color: white;
     font-size: 40px;
+    text-shadow: rgb(31, 207, 207);
     background-color: rgb(1, 10, 9);
 }
 
 .contenido{
-    background-image: url("../assets/fondopixel.jpg");
+    background-image: linear-gradient(
+        to bottom,
+        rgb(1, 10, 9),
+        rgb(31, 207, 207)), url("../assets/fondopixel.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
@@ -26,7 +30,7 @@
     justify-content: space-evenly;
     font-family: 'Handjet', "Arial", sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 22px;
     color: white;
 }
 
@@ -43,7 +47,7 @@
     border-radius: 5px;
     padding: 5px;
     margin: 10px;
-    width: 300px;
+    width: 320px;
     font-family: 'Courier New', Courier, monospace;
 }
 
