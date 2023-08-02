@@ -15,10 +15,11 @@
 }
 
 .contenido{
-    background-image: linear-gradient(
+    background-image: url("../assets/fondopixel.jpg");
+    background-color: linear-gradient(
         to bottom,
         rgb(1, 10, 9),
-        rgb(31, 207, 207)), url("../assets/fondopixel.jpg");
+        rgb(31, 207, 207));
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
